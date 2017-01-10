@@ -43,7 +43,7 @@ Joined data subset with the activityType table to include the descriptive activi
 
 4. Set labels on the dataset with descriptive variable names
 --------------------------------------------------------------------
-The gsub function was used to clean up the variable names having special characters in between.By write.table function the new table was created ‘clean_data.txt’ 
+The gsub function was used to clean up the variable names having special characters in between.
 
 5. Create a second tidy data set having the average of each variable for each activity and each subject. 
 ----------------------------------------------------------------------------------------
