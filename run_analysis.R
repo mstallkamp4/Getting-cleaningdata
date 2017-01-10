@@ -65,7 +65,7 @@ names(indiced_joined_data) <- gsub("-","",names(indiced_joined_data))
 
 
 # Create the second set 
-second_set <- aggregate(indiced_joined_data, by=list(activity = indiced_joined_data$activities, subject=indiced_joined_data$subjects), FUN=mean, na.rm=TRUE) 
+second_set<-aggregate(indiced_joined_data[,1:79],list(activities = indiced_joined_data$activities, subjects=indiced_joined_data$subjects),mean, na.rm=TRUE)
 
 
  # write to file 
