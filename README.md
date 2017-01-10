@@ -23,6 +23,5 @@ The repository includes the following files:
 
 - 'run_analysis.R': script.
 
-- 'clean_data.txt': Tidy measurements on the mean and standard deviation for each measurement.
 
 - 'second_set.txt': independent tidy data set with the average of each variable for each activity and each subject.
